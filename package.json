@@ -1,0 +1,22 @@
+{
+  "name": "prog-back-end-lab2A",
+  "version": "1.0.0",
+  "description": "Programowanie back-end, cz.1 (node.js), lab. 2A",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Grzegorz Filo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-handlebars": "^9.0.6",
+    "pug": "^3.0.4"
+  }
+}
